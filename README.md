@@ -1,15 +1,15 @@
-# 📘 PDF Outline Extractor
+#  PDF Outline Extractor
 
 A lightweight tool to automatically extract hierarchical outlines (headings, subheadings) from PDF documents using layout-based heuristics and natural language filtering.
 
----
+
 We will build the docker image using the following command:
 ```docker build --platform linux/amd64 -tmysolutionname:somerandomidentifier```
 After building the image, we will run the solution using the run command
 specified in the submitted instructions.
 ```docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --network none mysolutionname:somerandomidentifie
 
-## 🔍 Approach
+##  Approach
 
 The extractor works in the following stages:
 
@@ -34,7 +34,7 @@ The extractor works in the following stages:
 
 ---
 
-## 🤖 Libraries Used
+## Libraries Used
 
 | Library           | Purpose                            |
 |------------------|------------------------------------|
@@ -43,5 +43,6 @@ The extractor works in the following stages:
 | **scikit-learn**  | Clustering font sizes (KMeans)     |
 | **numpy**         | Numerical operations               |
 | **re** (Regex)    | Text and table pattern detection   |
- 
 
+ ##
+We will build the docker image using the following command: ```docker build --platform linux/amd64 -t mysolutionname:somerandomidentifier``` After building the image, we will run the solution using the run command specified in the submitted instructions. ```docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output -- network none mysolutionname:somerandomidentifie  
