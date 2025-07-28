@@ -39,4 +39,5 @@ The extractor works in the following stages:
 | **re** (Regex)    | Text and table pattern detection   |
 
  ##
-We will build the docker image using the following command: ```docker build --platform linux/amd64 -t mysolutionname:somerandomidentifier``` After building the image, we will run the solution using the run command specified in the submitted instructions. ```docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output -- network none mysolutionname:somerandomidentifie  
+We will build the docker image using the following command: ```docker build --platform linux/amd64 -t mysolutionname:somerandomidentifier```
+After building the image, we will run the solution using the run command specified in the submitted instructions. ```docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output -- network none mysolutionname:somerandomidentifie  
